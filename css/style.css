@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* Smartphones */
+/* Tablet */
+/* Normal */
+/* Widescreen */
+/* Landscape */
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+#mainheader {
+  background: #1a1a1d;
+  color: #fff;
+}
+#mainheader .logo h1 {
+  font-family: "Permanent Marker", sans-serif;
+}
+#mainheader .logo a {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#6f2232, #c3073f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#mainheader .logo a:hover {
+  color: #6f2232;
+  text-decoration: none;
+}
+#mainheader #navbar {
+  border: 1px solid #fff;
+  height: 55px;
+}
+#mainheader #navbar a {
+  color: #fff;
+}
+#mainheader #navbar a:hover {
+  text-decoration: none;
+  font-family: "Permanent Marker", sans-serif;
+}
+#mainheader #showcase a:hover {
+  padding: 10px;
+}
+
+#intro {
+  background: -webkit-linear-gradient(#6f2232, #c3073f);
+  color: #fff;
+}
+
+#features h5 {
+  border: 1px solid #6f2232;
+}
+#features a {
+  color: #6f2232;
+}
+#features a:hover {
+  color: #c3073f;
+  text-decoration: none;
+}
+
+#contributors {
+  background: #1a1a1d;
+  color: #fff;
+}
+#contributors ul li {
+  list-style: none;
+  padding-bottom: 5px;
+}
+
+#contact {
+  background: -webkit-linear-gradient(#6f2232, #c3073f);
+  color: #fff;
+}
+
+#mainfooter {
+  background: #1a1a1d;
+  color: #fff;
+}
+#mainfooter h4 {
+  font-family: "Permanent Marker", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */

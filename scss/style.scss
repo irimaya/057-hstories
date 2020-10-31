@@ -1,0 +1,122 @@
+// Import Fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+// Font
+$font-title: 'Raleway', sans-serif;
+$font-body: 'Montserrat', sans-serif;
+$font-logo: 'Permanent Marker', sans-serif;
+
+// Colors
+$main-color: #6f2232;
+$secondary-color: #950740;
+$third-color: #c3073f;
+$gray1-color: #1a1a1d;
+$gray2-color: #4e4e50;
+
+// Import
+@import 'mobile';
+
+// START HERE
+// Main Styling
+html,
+body {
+  font-family: $font-body;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-title;
+}
+
+// HEADER
+#mainheader {
+  background: $gray1-color;
+  color: #fff;
+  .logo {
+    h1 {
+      font-family: $font-logo;
+    }
+    a {
+      font-size: 72px;
+      background: -webkit-linear-gradient($main-color, $third-color);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    a:hover {
+      color: $main-color;
+      text-decoration: none;
+    }
+  } //End .logo
+  #navbar {
+    border: 1px solid #fff;
+    height: 55px;
+    a {
+      color: #fff;
+    }
+    a:hover {
+      text-decoration: none;
+      font-family: $font-logo;
+    }
+  } //End #navbar
+  #showcase {
+    a:hover {
+      padding: 10px;
+    }
+  }
+} //End #mainheader
+
+// INTRO
+#intro {
+  background: -webkit-linear-gradient($main-color, $third-color);
+  color: #fff;
+}
+
+// FEATURES
+#features {
+  h5 {
+    border: 1px solid $main-color;
+  }
+  a {
+    color: $main-color;
+  }
+  a:hover {
+    color: $third-color;
+    text-decoration: none;
+  }
+}
+
+// CONTRIBUTORS
+#contributors {
+  background: $gray1-color;
+  color: #fff;
+  ul li {
+    list-style: none;
+    padding-bottom: 5px;
+  }
+}
+
+// CONTACT
+#contact {
+  background: -webkit-linear-gradient($main-color, $third-color);
+  color: #fff;
+}
+
+
+// FOOTER
+#mainfooter {
+  background: $gray1-color;
+  color: #fff;
+  h4 {
+    font-family: $font-logo;
+  }
+}
+
